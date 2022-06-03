@@ -1,0 +1,77 @@
+.aboutus{
+    padding: 60px 78px 0 78px;
+    .about-title{
+        font-weight: 500;
+        font-size: 40px;
+        line-height: 30px;
+        color: #000000;
+    }
+    .about-text{
+        font-weight: 400;
+        font-size: 25px;
+        line-height: 30px;
+        color: #000000;
+    }
+    .aboutus-image{
+        background-image: url('../../assets/aboutus.svg') !important;
+        background-repeat: no-repeat !important;
+        background-size: cover !important;
+        height: 622px;
+    }
+}
+.contactus{
+    padding: 60px 78px;
+    .contact-title{
+        font-weight: 500;
+        font-size: 40px;
+        line-height: 30px;        
+        color: #000000;
+    }
+    .contact-text{
+        font-weight: 400;
+        font-size: 25px;
+        line-height: 30px;        
+        color: #000000;
+    }
+}
+.event{
+    padding: 60px 78px 0 78px;
+    .event-title{
+        font-weight: 500;
+        font-size: 40px;
+        line-height: 30px;        
+        color: #000000;
+    }
+    .event-text{
+        font-weight: 400;
+        font-size: 25px;
+        line-height: 30px;
+    }
+}
+.core{
+    padding: 60px 78px 0 78px;
+    .core-title{
+        font-weight: 500;
+        font-size: 40px;
+        line-height: 30px;        
+        color: #000000; 
+    }
+    .core-name{
+        font-weight: 500;
+        font-size: 35px;
+        line-height: 30px;
+        color: #000000;
+    }
+    .description{
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 30px;
+        text-align: center;
+        color: #000000;
+    }
+    .core-text{
+        display: block;
+        align-items: flex-start;
+        column-gap: 1px;
+    }
+}

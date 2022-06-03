@@ -1,0 +1,78 @@
+@import "./Mixins.scss";
+
+$font-stack: "Lora";
+$primary-color: #FB0606;
+$border: 1px solid #FB0606;
+$border-radius: 2em;
+$font-size: 18px;
+$font-family: "Lora";
+$background: #FB0606;
+
+.common-button{
+    background: #FB0606;
+    border-radius: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    color: #FFFFFF;
+    font-size: 20px;
+    line-height: 26px;
+    height: 40px;
+    cursor: pointer;
+    border:1px solid #FB0606;
+}
+.commenlyuse-button{
+    background: rgba(0, 0, 0, 0.6);
+    border-radius: 100px;
+    display: flex;
+    align-items: center;
+    height: 40px;
+
+    color: #FFFFFF;
+    font-size: 20px;
+    line-height: 26px;
+    cursor: pointer;
+    border:1px solid rgba(0, 0, 0, 0.6);
+}
+.ant-select:not(.ant-select-customize-input) .ant-select-selector {
+
+    background-color: white !important;
+    border: 1px solid #d9d9d9 !important;
+    border-radius: 100px !important;
+    height: 40px !important;
+    align-items: center;
+}
+.ant-input-affix-wrapper {
+    background-color: #d9d9d9 !important;
+    border: 1px solid #d9d9d9 !important;
+    border-radius: 100px !important;
+    height: 40px !important;
+    align-items: center;
+color: #000000 !important
+
+}
+.ant-input-affix-wrapper > input.ant-input {
+    
+background: #d9d9d9 !important;
+color: #000000 !important
+}
+.ant-divider {
+    border-top:3px solid #000000 !important;
+}
+.ant-layout-footer {
+    padding: 0 !important;
+}
+.ant-table.ant-table-bordered > .ant-table-container > .ant-table-content > table{
+    border: none !important;
+}
+.ant-table.ant-table-bordered > .ant-table-container {
+    border: none !important;
+    border-right: none !important;
+}
+.ant-descriptions-bordered .ant-descriptions-item-label{
+    border-right: none !important;
+}
+.ant-descriptions-bordered .ant-descriptions-item-label{
+    background-color: #FFFFFF !important;
+}

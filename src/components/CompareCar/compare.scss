@@ -1,0 +1,54 @@
+.compareTable{
+    padding: 20px 78px 20px 78px;
+    .title{
+        font-weight: 500;
+        font-size: 35px;
+        line-height: 30px;
+        color: #000000;
+
+    }
+}
+
+.compareCarsHari{
+    margin-bottom: 20px;
+    tr.compareRow{
+        padding: 20px 0;
+        &:hover{
+            background-color: rgba(#000, 0.08);
+        }
+    }
+    td.compareData{
+        padding: 10px 15px;
+        vertical-align: top;
+        h3{
+            font-weight: 700;
+            font-size: 25px;
+        }
+        h2{
+            font-weight:600;
+        }
+    }
+}
+.compare-title{
+    padding: 55px 78px 0 78px;
+    h3{
+        font-weight: bolder;
+        font-size: 50px;
+    }
+    .title{
+        font-weight: 500;
+        font-size: 45px;
+        line-height: 30px;
+        color: #000000;
+    }
+    .paragraph{
+        font-weight: 400;
+        font-size: 25px;
+        line-height: 30px;
+        color: #000000;
+    }
+}
+.color{
+    padding: 0 78px;
+
+}

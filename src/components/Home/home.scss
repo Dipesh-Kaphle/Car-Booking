@@ -1,0 +1,241 @@
+.carousel-button-group{
+    offset-position: 10ch 1em;
+}
+.carousel-wrapper {
+  padding: 10px 78px;
+  .carCard{
+    position: relative;
+    overflow-y: visible !important;
+    margin-top: 60px !important;
+    img{
+      margin-top: -60px;
+    }
+  }
+
+  position: relative;
+  .carousel-button-group{
+    position: absolute;
+    right: 70px;
+    top: 20px;
+    display: flex;
+    justify-items: center;
+  }
+    .carousel-title{
+        padding: 20px 20px;
+        .carouseltext{
+          font-size: 60px;
+          line-height: 70px;
+          color: #262626;
+      }
+      .carousellatest{
+        font-size: 30px;
+line-height: 38px;
+
+color: #262626;
+      }
+    }
+    .react-multiple-carousel__arrow .react-multiple-carousel__arrow--left {
+      margin-bottom: 35px;
+    }
+    .react-multiple-carousel__arrow .react-multiple-carousel__arrow--right {
+      margin: 35px;
+    }
+    .react-multi-carousel-track {
+      padding-bottom: 35px; 
+    }
+
+    .react-multi-carousel-dot--active button {
+      background: #e89d2e;
+    }
+
+    .react-multiple-carousel__arrow {
+      z-index: 0 !important;
+    }
+    .WeKnowYourChoices--cardheight {
+        // width:270px;
+        background: #ffffff !important;
+        justify-content: center;
+        margin: 78px 20px;
+        display: flex;
+        padding: 0 !important;
+        box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.15) !important;
+        border-radius: 16px !important;  
+        // background:blueviolet !important;
+        cursor: pointer;
+        .buttom-content{
+          display: flex;
+          align-items: center;
+          column-gap: 12px;
+          margin-top: 80px;
+          .tag-icon{
+            width: 40px;
+            height: 40px;
+            background: #262626;
+            border-radius: 100px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+          }
+          .tag-logo{
+            width: 40px;
+            height: 40px;
+            background: #E5E5E5;
+            border-radius: 100px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+          }
+        }
+      }
+      .WeKnowYourChoices--position{
+          display: flex;
+          justify-content: space-between;
+      }
+  }
+.carousel-button-group{
+    padding: 20px;
+}
+.getappoint-content{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  padding: 100px 78px;
+  .getappoint-title{
+    font-weight: normal;
+    font-size: 60px;
+    color: #262626;
+
+  }
+  .getappoint-text{
+    font-weight: normal;
+    font-size: 30px;
+    color: #262626;
+
+  }
+
+  
+}
+.compare-carscmponent{
+  background-image: url('../../assets/comparecar.svg');
+  background-repeat: no-repeat;
+  background-size:cover;
+  height: 580px;
+  display: flex;
+  background-color: rgba(38, 38, 38, 0.6);
+  align-items: center;
+  text-align: center;
+  padding: 160px 78px !important;
+  .compare{
+    display: block;
+
+    text-align: center;
+    align-items: center;
+  .copmare-title{
+    font-size: 60px;
+    line-height: 70px;
+    text-align: center;
+    color: #FFFFFF;
+  }
+  .compare-text{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 38px;
+    text-align: center;
+
+    color: #FFFFFF;
+
+  }
+  }
+  .compare-card{
+    margin: 184px 0 80px 0;
+    height: 140px;
+    padding-top: 20px !important;
+    border-radius: 20px;
+  }
+}
+
+
+.suggest{
+  background: #FFFFFF;
+  padding: 0 78px 100px 78px;
+  margin-top: 130px;
+  .suggestImage{
+    margin-top: -120px;
+    // max-height: 400px;
+    margin-bottom: -25px;
+  }
+  .contentRow{
+
+    padding: 100px;
+  }
+
+  .suggests-content{
+    background-color: #E5E5E5;
+    border-radius: 32px;    
+    // padding: 100px;
+    z-index: 0 !important;
+  }
+  .suggest-title{
+    font-weight: normal;
+    font-size: 50px;
+    line-height: 60px;
+    color: #000000;
+  }
+  .suggest-text{
+    font-size: 18px;
+    line-height: 30px;
+    color: #000000;
+  }
+}
+.carouseltag{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+height: 50px;
+background: rgba(251, 6, 6, 0.1);
+border-radius: 15px;
+}
+.suggestpopup-title{
+  font-size: 50px;
+line-height: 70px;
+color: #000000;
+
+}
+.select{
+  height: 50px;
+background: rgba(0, 0, 0, 0.76);
+border-radius: 20px;
+display: flex;
+align-items: center;
+justify-content: center;
+padding: 0 12px;
+color: #FFFFFF;
+cursor: pointer;
+;
+}
+.not-select{
+  height: 50px;
+  background: #E5E5E5;
+  border-radius: 20px;
+  display: flex;
+  padding: 0 12px;
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+}
+.suggest-button{
+  margin-top: 20px;
+  background: #FB0606;
+    border-radius: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FFFFFF;
+    font-size: 20px;
+    line-height: 26px;
+    height: 40px;
+    border: 1px solid #FB0606;
+}

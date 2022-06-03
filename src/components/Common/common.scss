@@ -1,0 +1,23 @@
+.auto-suggestions {
+    background-color: #ffffff;
+    padding:0;
+    position: absolute;
+    z-index: 999;
+    display: flex;
+    border-radius: 2px;
+    box-shadow: 1px 1px 1px 1px #e9e7e7;
+    flex-direction: column;
+    margin-top: -20px;
+    height: 140px;
+    overflow: hidden;
+    overflow-y: visible;
+    :hover{
+        background-color: #eeeeee;
+    }
+    .auto-suggestions--text {
+        cursor: pointer;
+        margin: 4px 0;
+        padding: 0 8px;
+        
+    }
+}

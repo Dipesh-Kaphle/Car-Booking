@@ -1,0 +1,8 @@
+export const FOURWHILE_NEPAL = "FOURWHILE_NEPAL"
+export const COMPARE_CAR = "COMPARE_CAR"
+export const PRODUCT_LIST = "PRODUCT_LIST"
+export const PRODUCT_ID = "PRODUCT_ID"
+export const SUGGEST = "SUGGEST"
+export const CARVALATION = "CARVALATION"
+export const MYBOOKING = "MYBOOKING"
+export const MyWISHLIST = "MyWISHLIST"

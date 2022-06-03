@@ -1,0 +1,21 @@
+.blog-content{
+    padding: 51px 78px;
+    .blog-name{
+        font-size: 24px;
+        line-height: 70px;
+        color: #262626;
+    }
+    .blog-post{
+        display: block;
+        align-items: center;
+    }
+    .blog-posttitle{
+        font-size: 60px ;       
+        color: #262626;
+    }
+    .blog-posttext{
+        font-weight: normal;
+        font-size: 30px;        
+        color: #262626;
+    }
+}

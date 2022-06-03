@@ -1,0 +1,84 @@
+@import "./Variable.scss";
+@import url("https://fonts.googleapis.com/css2?family=Lora&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lora&display=swap");
+@import "./Mixins.scss";
+@import '../components/Layout/Header/style.scss';
+@import '../components//Home/home.scss';
+@import '../components/Authentation/auth.scss';
+@import "../components//CarDetails/cardetail.scss";
+@import '../components/BlogPost/blog.scss';
+@import '../components/SuggestCar/suggest.scss';
+@import '../components/CarValuation/carvaluation.scss';
+@import '../components/CompareCar/compare.scss';
+@import '../components//Aboutus/aboutus.scss';
+// @font-face {
+//   font-family: "avenir";
+//   src: local("avenir"), url(../assets/fonts/AvenirLTStd-Book.otf) format("truetype");
+// }
+body {
+  background-color: #ffffff !important;
+}
+body,
+html {
+  font-family: "Lora";
+  // -webkit-font-smoothing: antialiased;
+  // -moz-osx-font-smoothing: grayscale;
+}
+
+iframe {
+ 
+  // display: none !important;
+  // max-height: 00px !important;
+  z-index: 0 !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  border: none !important;
+  // height: 30% !important;
+  overflow: hidden !important;
+}
+.firstfooter-content{
+  background-color: #262626;
+  height: 419px;
+  padding: 90px 110px;
+  .footerlogo{
+    display: flex;
+    column-gap: 10px;
+    .footer-title{
+      font-size: 18px;
+      line-height: 23px;
+
+      text-transform: uppercase;
+
+      color: #FFFFFF;
+    }
+  }
+  .footer-discription{
+    font-size: 18px;
+    line-height: 29px;
+    color: #FFFFFF;
+    margin-top: 28px;
+  }
+  .footer-item{
+    font-size: 18px;
+    line-height: 29px;
+    color: #FFFFFF;
+  }
+}
+.firstsecond-content{
+height: 94px;
+background: #303030;
+padding: 30px 10px 30px 110px;
+.firstfooter-title{
+  font-size: 18px;
+line-height: 29px;
+
+
+color: #FFFFFF;
+}
+.firstfooter-text{
+  font-size: 18px;
+display: flex;
+align-items: center;
+color: #FFFFFF;
+}
+}

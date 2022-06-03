@@ -1,0 +1,39 @@
+import React, { useEffect } from "react"
+import { bindActionCreators } from "redux"
+import { connect } from "react-redux"
+import SuggestCars from "../../components/SuggestCar"
+import * as reducerToolsAction from "../../actions/reducerToolsAction"
+import * as home from "../../services/home"
+
+const Suggest = (props) => {
+  const {
+    actions: { reducerCleanRequest },
+  } = props
+
+  useEffect(() => {
+    return () => {
+      reducerCleanRequest()
+    }
+  }, [reducerCleanRequest])
+
+  return <SuggestCars {...props} />
+}
+
+/**
+ * Map the state to props.
+ */
+const mapStateToProps = (state) => ({})
+
+/**
+ * Map the actions to props.
+ */
+const mapDispatchToProps = (dispatch) => {
+  return {
+    actions: bindActionCreators(
+      Object.assign({}, reducerToolsAction, home),
+      dispatch
+    ),
+  }
+}
+
+export default connect(mapStateToProps, mapDispatchToProps)(Suggest)
